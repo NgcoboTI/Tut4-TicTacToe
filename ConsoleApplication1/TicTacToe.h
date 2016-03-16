@@ -5,12 +5,13 @@ public:
 	TicTacToe();
 	~TicTacToe();
 
-private:
-	bool move(int, int);
-	bool over();
+
+	void move(int,char);
+	char over();
 	void print();
 	void reset();
-	
+
+ private :	
 	char matrix[3][3];
 };
 
